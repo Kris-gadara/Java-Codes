@@ -1,0 +1,18 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class swing {
+   public swing() {
+   }
+
+   public static void main(String[] var0) {
+      JButton var1 = new JButton("Press Me");
+      var1.addActionListener(new swing$1());
+      JFrame var2 = new JFrame();
+      var2.setDefaultCloseOperation(3);
+      var2.getContentPane().add(var1);
+      var2.pack();
+      var2.setVisible(true);
+   }
+}
